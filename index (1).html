@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>银湖石墨 - 专业石墨制品生产商</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        .transition-all {
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- 导航栏 -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <i class="fas fa-cube text-blue-600 text-2xl mr-2"></i>
+                        <span class="text-xl font-bold text-gray-800">银湖石墨</span>
+                    </div>
+                </div>
+                <div class="hidden md:ml-6 md:flex md:items-center md:space-x-8">
+                    <a href="#home" class="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-all">首页</a>
+                    <a href="#about" class="text-gray-500 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-all">关于我们</a>
+                    <a href="#products" class="text-gray-500 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-all">产品中心</a>
+                    <a href="#technology" class="text-gray-500 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-all">技术实力</a>
+                    <a href="#news" class="text-gray-500 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-all">新闻中心</a>
+                    <a href="#contact" class="text-gray-500 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-all">联系我们</a>
+                    <div class="flex items-center">
+                        <span class="text-gray-500 mr-2">EN</span>
+                        <i class="fas fa-globe text-gray-500"></i>
+                    </div>
+                </div>
+                <div class="-mr-2 flex items-center md:hidden">
+                    <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500" aria-expanded="false">
+                        <span class="sr-only">打开主菜单</span>
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <section id="home" class="hero h-96 flex items-center justify-center text-white">
+        <div class="text-center px-4">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">专业石墨制品生产商</h1>
+            <p class="text-xl md:text-2xl mb-8">20年专注石墨材料研发与生产</p>
+            <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition-all inline-block">联系我们</a>
+        </div>
+    </section>
+
+    <!-- 关于我们 -->
+    <section id="about" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">关于银湖石墨</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="工厂外观" class="rounded-lg shadow-xl w-full">
+                </div>
+                <div class="md:w-1/2">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">公司简介</h3>
+                    <p class="text-gray-600 mb-4">银湖石墨有限公司成立于2003年，是一家专业从事石墨制品研发、生产和销售的高新技术企业。公司位于江苏省无锡市宜兴市，占地面积20000平方米，拥有现代化生产车间和先进的生产设备。</p>
+                    <p class="text-gray-600 mb-6">经过20年的发展，公司已形成年产石墨制品5000吨的生产能力，产品广泛应用于冶金、化工、机械、电子、新能源等行业，远销欧美、日韩、东南亚等国家和地区。</p>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-gray-100 p-4 rounded-lg">
+                            <div class="text-blue-600 text-3xl mb-2">
+                                <i class="fas fa-industry"></i>
+                            </div>
+                            <h4 class="font-semibold text-gray-800">20年经验</h4>
+                            <p class="text-gray-600 text-sm">专注石墨行业20年</p>
+                        </div>
+                        <div class="bg-gray-100 p-4 rounded-lg">
+                            <div class="text-blue-600 text-3xl mb-2">
+                                <i class="fas fa-globe-asia"></i>
+                            </div>
+                            <h4 class="font-semibold text-gray-800">全球市场</h4>
+                            <p class="text-gray-600 text-sm">产品远销30+国家</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 产品中心 -->
+    <section id="products" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">产品中心</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+                <p class="text-gray-600 mt-4 max-w-2xl mx-auto">我们提供各种高品质石墨制品，满足不同行业的需求</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- 产品1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden product-card transition-all">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">高纯石墨</h3>
+                        <p class="text-gray-600 mb-4">纯度高达99.9%以上，具有优异的导电性、导热性和耐高温性能。</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center">
+                            了解更多
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- 产品2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden product-card transition-all">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">抗氧化石墨</h3>
+                        <p class="text-gray-600 mb-4">经过特殊处理，具有优异的抗氧化性能，延长使用寿命。</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center">
+                            了解更多
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- 产品3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden product-card transition-all">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">导电石墨</h3>
+                        <p class="text-gray-600 mb-4">低电阻率，高导电性能，适用于电子、电池等行业。</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center">
+                            了解更多
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- 产品4 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden product-card transition-all">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">耐高温石墨</h3>
+                        <p class="text-gray-600 mb-4">可在3000℃高温环境下长期使用，性能稳定。</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center">
+                            了解更多
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- 产品5 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden product-card transition-all">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">核级石墨</h3>
+                        <p class="text-gray-600 mb-4">高纯度、高密度，满足核工业特殊要求。</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center">
+                            了解更多
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- 产品6 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden product-card transition-all">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">环保石墨</h3>
+                        <p class="text-gray-600 mb-4">无污染、可回收，符合环保要求。</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center">
+                            了解更多
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-12">
+                <a href="#" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 transition-all">
+                    查看全部产品
+                    <i class="fas fa-chevron-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技术实力 -->
+    <section id="technology" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">技术实力</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+                <p class="text-gray-600 mt-4 max-w-2xl mx-auto">先进的生产设备和严格的质量控制体系</p>
+            </div>
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                    <div class="bg-gray-100 p-6 rounded-lg mb-6">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 bg-blue-100 p-3 rounded-full mr-4">
+                                <i class="fas fa-flask text-blue-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold text-gray-800 mb-2">研发能力</h3>
+                                <p class="text-gray-600">公司拥有专业的研发团队，与多所高校和科研院所建立合作关系，不断开发新产品和新技术。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg mb-6">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 bg-blue-100 p-3 rounded-full mr-4">
+                                <i class="fas fa-cogs text-blue-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold text-gray-800 mb-2">生产设备</h3>
+                                <div class="text-gray-600">引进德国、日本等国家的先进生产设备，实现自动化、智能化生产，确保产品质量稳定。</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 bg-blue-100 p-3 rounded-full mr-4">
+                                <i class="fas fa-award text-blue-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold text-gray-800 mb-2">质量认证</h3>
+                                <p class="text-gray-600">通过ISO9001质量管理体系认证、ISO14001环境管理体系认证，产品符合RoHS、REACH等国际标准。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="bg-gray-100 p-6 rounded-lg h-full">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-4">技术参数</h3>
+                        <div class="space-y-4">
+                            <div>
+                                <h4 class="font-medium text-gray-700">密度</h4>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5 mt-2">
+                                    <div class="bg-blue-600 h-2.5 rounded-full" style="width: 90%"></div>
+                                </div>
+                                <p class="text-sm text-gray-500 mt-1">1.5-1.9g/cm³</p>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-gray-700">抗压强度</h4>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5 mt-2">
+                                    <div class="bg-blue-600 h-2.5 rounded-full" style="width: 85%"></div>
+                                </div>
+                                <p class="text-sm text-gray-500 mt-1">30-80MPa</p>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-gray-700">电阻率</h4>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5 mt-2">
+                                    <div class="bg-blue-600 h-2.5 rounded-full" style="width: 75%"></div>
+                                </div>
+                                <p class="text-sm text-gray-500 mt-1">8-15μΩ·m</p>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-gray-700">灰分</h4>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5 mt-2">
+                                    <div class="bg-blue-600 h-2.5 rounded-full" style="width: 95%"></div>
+                                </div>
+                                <p class="text-sm text-gray-500 mt-1">≤0.5%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 新闻中心 -->
+    <section id="news" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">新闻中心</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+                <p class="text-gray-600 mt-4 max-w-2xl mx-auto">了解公司最新动态和行业资讯</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- 新闻1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transition-all hover:shadow-lg">
+                    <div class="h-48 bg-gray-200 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="展会新闻" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center text-sm text-gray-500 mb-2">
+                            <span>2023-06-15</span>
+                            <span class="mx-2">|</span>
+                            <span>公司新闻</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-3">银湖石墨参加2023国际新材料展览会</h3>
+                        <p class="text-gray-600 mb-4">6月10-12日，我公司参加了在上海举办的2023国际新材料展览会，展示了最新研发的高性能石墨材料...</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center">
+                            阅读更多
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- 新闻2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transition-all hover:shadow-lg">
+                    <div class="h-48 bg-gray-200 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="行业动态" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center text-sm text-gray-500 mb-2">
+                            <span>2023-05-20</span>
+                            <span class="mx-2">|</span>
+                            <span>行业动态</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-3">石墨材料在新能源领域的应用前景</h3>
+                        <p class="text-gray-600 mb-4">随着新能源产业的快速发展，石墨材料在锂离子电池、燃料电池等领域的应用越来越广泛...</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center">
+                            阅读更多
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- 新闻3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transition-all hover:shadow-lg">
+                    <div class="h-48 bg-gray-200 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="荣誉奖项" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center text-sm text-gray-500 mb-2">
+                            <span>2023-04-18</span>
+                            <span class="mx-2">|</span>
+                            <span>荣誉奖项</span>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-3">银湖石墨荣获"江苏省高新技术企业"称号</h3>
+                        <p class="text-gray-600 mb-4">近日，我公司凭借强大的研发实力和创新能力，荣获"江苏省高新技术企业"称号...</p>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center">
+                            阅读更多
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-12">
+                <a href="#" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 transition-all">
+                    查看更多新闻
+                    <i class="fas fa-chevron-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">联系我们</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+                <p class="text-gray-600 mt-4 max-w-2xl mx-auto">我们随时准备为您提供专业的服务和支持</p>
+            </div>
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                    <div class="bg-gray-50 p-8 rounded-lg shadow-sm">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-6">发送消息</h3>
+                        <form>
+                            <div class="mb-4">
+                                <label for="name" class="block text-sm font-medium text-gray-700 mb-1">姓名</label>
+                                <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500" placeholder="请输入您的姓名">
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">邮箱</label>
+                <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500" placeholder="请输入您的邮箱">
+            </div>
+            <div class="mb-4">
+                <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">电话</label>
+                <input type="tel" id="phone" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500" placeholder="请输入您的电话">
+            </div>
+            <div class="mb-4">
+                <label for="message" class="block text-sm font-medium text-gray-700 mb-1">留言内容</label>
+                <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500" placeholder="请输入您的留言内容"></textarea>
+            </div>
+            <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-md transition-all">
+                发送消息
+            </button>
+        </form>
+    </div>
+</div>
+<div class="md:w-1/2">
+    <div class="bg-gray-50 p-8 rounded-lg shadow-sm h-full">
+        <h3 class="text-xl font-semibold text-gray-800 mb-6">联系方式</h3>
+        <div class="space-y-6">
+            <div class="flex items-start">
+                <div class="flex-shrink-0 bg-blue-100 p-3 rounded-full mr-4">
+                    <i class="fas fa-map-marker-alt text-blue-600"></i>
+                </div>
+                <div>
+                    <h4 class="font-medium text-gray-800 mb-1">公司地址</h4>
+                    <p class="text-gray-600">江苏省无锡市宜兴市银湖东路10号</p>
+                </div>
+            </div>
+            <div class="flex items-start">
+                <div class="flex-shrink-0 bg-blue-100 p-3 rounded-full mr-4">
+                    <i class="fas fa-phone-alt text-blue-600"></i>
+                </div>
+                <div>
+                    <h4 class="font-medium text-gray-800 mb-1">联系电话</h4>
+                    <p class="text-gray-600">0510-87476628</p>
+                    <p class="text-gray-600">400-888-9999</p>
+                </div>
+            </div>
+            <div class="flex items-start">
+                <div class="flex-shrink-0 bg-blue-100 p-3 rounded-full mr-4">
+                    <i class="fas fa-envelope text-blue-600"></i>
+                </div>
+                <div>
+                    <h4 class="font-medium text-gray-800 mb-1">电子邮箱</h4>
+                    <p class="text-gray-600">info@yhjzsm.com</p>
+                    <p class="text-gray-600">sales@yhjzsm.com</p>
+                </div>
+            </div>
+            <div class="flex items-start">
+                <div class="flex-shrink-0 bg-blue-100 p-3 rounded-full mr-4">
+                    <i class="fas fa-clock text-blue-600"></i>
+                </div>
+                <div>
+                    <h4 class="font-medium text-gray-800 mb-1">工作时间</h4>
+                    <p class="text-gray-600">周一至周五: 8:30 - 17:30</p>
+                    <p class="text-gray-600">周六: 9:00 - 12:00</p>
+                </div>
+            </div>
+        </div>
+        <div class="mt-8">
+            <h4 class="font-medium text-gray-800 mb-4">关注我们</h4>
+            <div class="flex space-x-4">
+                <a href="#" class="bg-blue-600 text-white p-3 rounded-full hover:bg-blue-700 transition-all">
+                    <i class="fab fa-weixin"></i>
+                </a>
+                <a href="#" class="bg-blue-500 text-white p-3 rounded-full hover:bg-blue-600 transition-all">
+                    <i class="fab fa-weibo"></i>
+                </a>
+                <a href="#" class="bg-blue-400 text-white p-3 rounded-full hover:bg-blue-500 transition-all">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 地图 -->
+    <div class="h-96 bg-gray-200">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.123456789012!2d119.12345678901234!3d31.12345678901234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzHCsDA3JzI0LjQiTiAxMTnCsDA3JzI0LjQiRQ!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">关于银湖</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-all">公司简介</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-all">发展历程</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-all">企业文化</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-all">荣誉资质</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">产品中心</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-all">高纯石墨</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-all">抗氧化石墨</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-all">导电石墨</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-all">耐高温石墨</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">新闻中心</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-all">公司新闻</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-all">行业动态</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-all">技术文章</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-all">展会信息</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">联系我们</h3>
+                    <ul class="space-y-2">
+                        <li class="text-gray-400">江苏省无锡市宜兴市银湖东路10号</li>
+                        <li class="text-gray-400">电话: 0510-87476628</li>
+                        <li class="text-gray-400">邮箱: info@yhjzsm.com</li>
+                        <li class="text-gray-400">传真: 0510-87476629</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center mb-4 md:mb-0">
+                    <i class="fas fa-cube text-blue-500 text-2xl mr-2"></i>
+                    <span class="text-xl font-bold">银湖石墨</span>
+                </div>
+                <div class="text-gray-500 text-sm">
+                    © 2023 银湖石墨有限公司 版权所有 苏ICP备12345678号
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 返回顶部按钮 -->
+    <button id="back-to-top" class="fixed bottom-8 right-8 bg-blue-600 text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all hover:bg-blue-700">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // 返回顶部按钮
+        const backToTopButton = document.getElementById('back-to-top');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.remove('opacity-0', 'invisible');
+                backToTopButton.classList.add('opacity-100', 'visible');
+            } else {
+                backToTopButton.classList.remove('opacity-100', 'visible');
+                backToTopButton.classList.add('opacity-0', 'invisible');
+            }
+        });
+        
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // 平滑滚动
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+<p style="border-radius: 8px; text-align: center; font-size: 12px; color: #fff; margin-top: 16px;position: fixed; left: 8px; bottom: 8px; z-index: 10; background: rgba(0, 0, 0, 0.8); padding: 4px 8px;">Made with <img src="https://enzostvs-deepsite.hf.space/logo.svg" alt="DeepSite Logo" style="width: 16px; height: 16px; vertical-align: middle;display:inline-block;margin-right:3px;filter:brightness(0) invert(1);"><a href="https://enzostvs-deepsite.hf.space" style="color: #fff;text-decoration: underline;" target="_blank" >DeepSite</a> - 🧬 <a href="https://enzostvs-deepsite.hf.space?remix=kobelee623/yinhu" style="color: #fff;text-decoration: underline;" target="_blank" >Remix</a></p></body>
+</html>
